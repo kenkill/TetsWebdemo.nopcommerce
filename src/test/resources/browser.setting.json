@@ -1,0 +1,37 @@
+{
+  "chrome.local": {
+    "mode": "Local",
+    "platform": "Desktop",
+    "driver": "Chrome",
+    "provider": "Selenium"
+  },
+  "chrome.remote": {
+    "mode": "Remote",
+    "platform": "Desktop",
+    "driver": "Chrome",
+    "provider": "Selenium",
+    "remoteUrl": "http://127.0.0.1:4444/wd/hub",
+    "capabilities": {
+      "browserName": "chrome",
+      "platform": "ANY"
+    }
+  },
+  "firefox.local": {
+    "mode": "Local",
+    "platform": "Desktop",
+    "driver": "Firefox",
+    "provider": "Selenium"
+  },
+  "appium": {
+    "mode": "Remote",
+    "platform": "Mobile",
+    "driver": "Chrome",
+    "provider": "Appium",
+    "remoteUrl": "http://127.0.0.1:4444/wd/hub",
+    "capabilities": {
+      "browserName": "chrome",
+      "Version": "ANY",
+      "deviceName": ""
+    }
+  }
+}

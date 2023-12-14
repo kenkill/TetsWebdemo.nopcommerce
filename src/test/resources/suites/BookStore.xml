@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite">
+    <listeners>
+        <listener class-name="listener.TestListener"/>
+    </listeners>
+    <test name="BookStore">
+        <parameter name="browser" value="chrome.local"/>
+        <classes>
+<!--            <class name="tests.testcases.AddNewCustomer"/>-->
+<!--            <class name="tests.testcases.EditCustomer"/>-->
+<!--            <class name="tests.testcases.DeleteCustomer"/>-->
+<!--            <class name="tests.testcase.AddBookToCollection"/>-->
+<!--            <class name="tests.testcase.Logindemo"/>-->
+        </classes>
+    </test>
+</suite>
